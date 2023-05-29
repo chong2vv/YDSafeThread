@@ -37,8 +37,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020D3FDC945FE269894F1CAB /* YDSafeThread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDSafeThread.podspec; path = ../YDSafeThread.podspec; sourceTree = "<group>"; };
-		57DB0F281F4B9C750460D531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		020D3FDC945FE269894F1CAB /* YDSafeThread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDSafeThread.podspec; path = ../YDSafeThread.podspec; sourceTree = "<group>"; };
+		15FBB62C2A24782F00E20660 /* YDThreadSafeMutableSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDThreadSafeMutableSet.m; sourceTree = "<group>"; };
+		15FBB62D2A24782F00E20660 /* YDThreadSafeMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDThreadSafeMutableArray.m; sourceTree = "<group>"; };
+		15FBB62E2A24782F00E20660 /* YDLoopThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLoopThread.h; sourceTree = "<group>"; };
+		15FBB62F2A24782F00E20660 /* YDThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		15FBB6302A24782F00E20660 /* YDMainThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMainThread.h; sourceTree = "<group>"; };
+		15FBB6312A24782F00E20660 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		15FBB6322A24782F00E20660 /* YDSafeThreadPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSafeThreadPool.h; sourceTree = "<group>"; };
+		15FBB6332A24782F00E20660 /* YDLoopThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLoopThread.m; sourceTree = "<group>"; };
+		15FBB6342A24782F00E20660 /* YDThreadSafeMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDThreadSafeMutableArray.h; sourceTree = "<group>"; };
+		15FBB6352A24782F00E20660 /* YDThreadSafeMutableSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDThreadSafeMutableSet.h; sourceTree = "<group>"; };
+		15FBB6362A24782F00E20660 /* YDMainThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMainThread.m; sourceTree = "<group>"; };
+		15FBB6372A24782F00E20660 /* YDThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		15FBB6382A24782F00E20660 /* YDSafeThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSafeThread.h; sourceTree = "<group>"; };
+		15FBB6392A24782F00E20660 /* YDSafeThreadPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDSafeThreadPool.m; sourceTree = "<group>"; };
+		15FBB63B2A24782F00E20660 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		57DB0F281F4B9C750460D531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDSafeThread_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDSafeThread_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +80,7 @@
 		971F31A054C4CB943EB809E2 /* Pods_YDSafeThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDSafeThread_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4488BDDAB9B1517035534A8 /* Pods-YDSafeThread_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDSafeThread_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDSafeThread_Tests/Pods-YDSafeThread_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCAC0A98C83FCE094D63D7C6 /* Pods-YDSafeThread_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDSafeThread_Example.release.xcconfig"; path = "Target Support Files/Pods-YDSafeThread_Example/Pods-YDSafeThread_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4174ACB82BABA1154AC7252 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F4174ACB82BABA1154AC7252 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F4CD6B4312D4970DB3BF6F9B /* Pods-YDSafeThread_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDSafeThread_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDSafeThread_Tests/Pods-YDSafeThread_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,9 +110,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15FBB62A2A24782F00E20660 /* YDSafeThread */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB62B2A24782F00E20660 /* Classes */,
+				15FBB63A2A24782F00E20660 /* Assets */,
+			);
+			name = YDSafeThread;
+			path = ../YDSafeThread;
+			sourceTree = "<group>";
+		};
+		15FBB62B2A24782F00E20660 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB62C2A24782F00E20660 /* YDThreadSafeMutableSet.m */,
+				15FBB62D2A24782F00E20660 /* YDThreadSafeMutableArray.m */,
+				15FBB62E2A24782F00E20660 /* YDLoopThread.h */,
+				15FBB62F2A24782F00E20660 /* YDThreadSafeMutableDictionary.m */,
+				15FBB6302A24782F00E20660 /* YDMainThread.h */,
+				15FBB6312A24782F00E20660 /* .gitkeep */,
+				15FBB6322A24782F00E20660 /* YDSafeThreadPool.h */,
+				15FBB6332A24782F00E20660 /* YDLoopThread.m */,
+				15FBB6342A24782F00E20660 /* YDThreadSafeMutableArray.h */,
+				15FBB6352A24782F00E20660 /* YDThreadSafeMutableSet.h */,
+				15FBB6362A24782F00E20660 /* YDMainThread.m */,
+				15FBB6372A24782F00E20660 /* YDThreadSafeMutableDictionary.h */,
+				15FBB6382A24782F00E20660 /* YDSafeThread.h */,
+				15FBB6392A24782F00E20660 /* YDSafeThreadPool.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		15FBB63A2A24782F00E20660 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				15FBB63B2A24782F00E20660 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				15FBB62A2A24782F00E20660 /* YDSafeThread */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YDSafeThread */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -193,7 +248,6 @@
 				B4488BDDAB9B1517035534A8 /* Pods-YDSafeThread_Tests.debug.xcconfig */,
 				F4CD6B4312D4970DB3BF6F9B /* Pods-YDSafeThread_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +312,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

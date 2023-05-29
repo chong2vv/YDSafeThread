@@ -7,6 +7,8 @@
 //
 
 #import "YDViewController.h"
+#import <YDSafeThread/YDSafeThread.h>
+
 
 @interface YDViewController ()
 
